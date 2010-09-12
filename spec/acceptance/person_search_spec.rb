@@ -5,7 +5,7 @@ feature "Look for a person on the contact book", %q{
   I want to search by first name filtering the listing
 } do
 
-  scenario "The listing has four people and I'm looking for Johnny" do
+  scenario "The listing has four people and I'm looking for Johnny", :js => true do
     Person.create!(:first_name => 'John', :last_name => 'Doe')
     Person.create!(:first_name => 'Johnny', :last_name => 'Baggins')
     Person.create!(:first_name => 'Sarah', :last_name => 'Jones')
