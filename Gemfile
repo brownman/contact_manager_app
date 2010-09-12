@@ -30,4 +30,6 @@ group :development, :test do
   gem 'rspec-rails', :git => 'http://github.com/rspec/rspec-rails.git'
   gem 'steak', :git => 'http://github.com/cavalle/steak.git'
   gem 'capybara', :git => 'http://github.com/jnicklas/capybara.git'
+  gem 'selenium-webdriver'
+  gem 'launchy'
 end
