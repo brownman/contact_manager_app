@@ -32,4 +32,5 @@ group :development, :test do
   gem 'capybara', :git => 'http://github.com/jnicklas/capybara.git'
   gem 'selenium-webdriver'
   gem 'launchy'
+  gem 'database_cleaner', :git => 'http://github.com/bmabey/database_cleaner.git'
 end

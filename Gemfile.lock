@@ -1,13 +1,19 @@
 GIT
+  remote: http://github.com/bmabey/database_cleaner.git
+  revision: 04ba63b
+  specs:
+    database_cleaner (0.6.0.rc.2)
+
+GIT
   remote: http://github.com/cavalle/steak.git
-  revision: 4956708bfe57c48991c3600a6dd6cf4dcc80fb25
+  revision: 4956708
   specs:
     steak (1.0.0.beta.1)
       rspec
 
 GIT
   remote: http://github.com/jnicklas/capybara.git
-  revision: 7065a66503b6aea909f5bea91eb61cacd3a4aa7c
+  revision: 7065a66
   specs:
     capybara (0.3.9)
       celerity (>= 0.7.9)
@@ -21,14 +27,14 @@ GIT
 
 GIT
   remote: http://github.com/rspec/rspec-rails.git
-  revision: ff2efd7a2376a754955aff4c996438415da5f2f3
+  revision: ff2efd7
   specs:
     rspec-rails (2.0.0.beta.20)
       rspec (= 2.0.0.beta.20)
 
 GIT
   remote: http://github.com/rspec/rspec.git
-  revision: d90fe02234eaa5bef3fa4c93f1a6588317cb81da
+  revision: d90fe02
   specs:
     rspec (2.0.0.beta.20)
       rspec-core (= 2.0.0.beta.20)
@@ -128,6 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara!
+  database_cleaner!
   launchy
   rails (= 3.0.0)
   rspec!
